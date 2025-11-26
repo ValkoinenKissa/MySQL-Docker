@@ -18,13 +18,14 @@ Esto descargará la imagen de MySQL (si no está ya en tu máquina) y levantará
 
 ## Acceder a MySQL desde el contenedor
 
-Para entrar al cliente MySQL dentro del contenedor:
+Para entrar al cliente MySQL de forma interactiva dentro del contenedor:
 
 ```bash
 docker exec -it mysql-container mysql -u root -p
 ```
 
 Se te pedirá la contraseña configurada en la variable `MYSQL_ROOT_PASSWORD`.
+Se podrá realizar acciones desde el cliente de terminal de mySQL
 
 ---
 
