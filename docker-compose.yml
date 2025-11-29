@@ -4,6 +4,7 @@ services:
     container_name: mysql-container
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_ROOT_USER: ${MYSQL_ROOT_USER}
     ports:
       - "3306:3306"
     volumes:
